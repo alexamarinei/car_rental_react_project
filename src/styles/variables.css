@@ -1,0 +1,35 @@
+:root { 
+    --background-color:#FFFFFF;
+    --blue-btn-color : #1572D3 ; 
+    --nav-text-color : #484848; 
+    --text-color : #242424; 
+    --subtext-color : #6D6D6D;
+
+    --font-family-primary: 'Poppins', sans-serif;
+
+    --font-weight-regular:400;
+    --font-weight-medium:500;
+    --font-weight-semibd:600;
+
+    --font-size-small: 0.875rem; /* 14px */
+    --font-size-base: 1rem;      /* 16px */
+    --font-size-large: 1.25rem;  /* 20px */
+    --font-size-title: 3rem;     /* 48px */
+
+    
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.pointer {
+    cursor: pointer;
+}
+
+.non-editable {
+    cursor: default;
+    user-select: none;
+}
